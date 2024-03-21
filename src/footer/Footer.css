@@ -11,9 +11,13 @@
 .col{
     
     column-count: 4;
-    column-gap: 50px;
-    font-size: 10px;
-    text-align: center;
+    column-gap: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.col li:hover{
+    color: blue;
 }
 
 .row:after {

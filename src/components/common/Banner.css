@@ -23,3 +23,9 @@
     height: 60%;
     object-fit: contain;
 }
+
+@media screen and (max-width: 500px) {
+    .bannerfunc{
+        width: 100%;
+    }
+}

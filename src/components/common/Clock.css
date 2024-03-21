@@ -1,0 +1,26 @@
+  .clock {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .clock section {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .clock section p {
+    font-size: 2rem;
+  }
+  .clock section small {
+    color: silver;
+    text-shadow: none;
+  }
+  

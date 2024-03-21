@@ -3,8 +3,8 @@ import background from '../../assets/home1.jpg';
 import saiclogo from '../../assets/saic_logo_round.jpg';
 import middlephoto from '../../assets/event_bg.jpg';
 import './Timer.css';
-import CountdownTimer from './CountdownTimer';
 import Scrolling from './Scrolling.js';
+import Clock2 from './Clock2.js';
 
 
 export default function Timer() {
@@ -26,15 +26,17 @@ export default function Timer() {
         </div>
         <div className='countdowntimer'>
             <center>
+            <div className='eventsize'>
             <pre>Upcoming Event</pre>
+            </div>
                 <div className='timer'> 
-                     <CountdownTimer duration={4*24*60*60*1000}/>
+                     <Clock2 />
                 </div>
             </center>  
         </div>
         <div className='texttimerkeniche'>
             <p>
-                <pre>Industry Insights</pre>
+                <pre style={{fontWeight:'400'}}>Industry Insights</pre>
                 <pre>
                     <small> Mr. Subhadeep Banduri</small>
                 </pre>

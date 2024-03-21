@@ -1,0 +1,13 @@
+.containermessage{
+    display: flex;
+  justify-content: center;
+}
+
+.para{
+    
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(13, 13, 67) ;
+}

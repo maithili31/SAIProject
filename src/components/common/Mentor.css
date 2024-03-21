@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+
+.mentor{
+    display: table;
+    padding-left: 10px;
+}
+
+.mentorphoto{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.mentor .mentorphoto:hover{
+    color: blue;
+}
+
+@media screen and (max-width: 500px) {
+    .mentor {
+      width: 100%;
+    }
+  }

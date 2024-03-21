@@ -1,5 +1,6 @@
 .container{
     position: relative;
+    width: 100%;
     text-align: center;
     color: white;
 }
@@ -49,6 +50,10 @@
     left: 500px;
     height: 120px;
     width: 70px;
+}
+
+.eventsize{
+    font-size: 22px;
 }
 
 .timer{

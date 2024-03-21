@@ -4,12 +4,14 @@ import Home from './pages/Home.js';
 import nitLogo from './assets/nitLogo.jpg';
 import caair from './assets/centerForNitLogo.jpg';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Publication from './pages/Publication.js';
-import About from './pages/About.js';
 import Initiative from './pages/Initiative.js';
-import InstituteHome from './pages/InstituteHome.js';
 import Team from './pages/Team.js';
 import Login from './components/common/Login.js';
+import Message from './components/common/Message.js';
+import Footer from './footer/Footer.js';
+import Contact from './components/common/Contact.js';
+import AlumniService from './components/common/AlumniService.js';
+import Publication from './pages/Publication.js';
 
 
 function App() {
@@ -29,16 +31,18 @@ function App() {
         </div>
       </div>
       <Router>
-        <Navbar />
+      <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/About' element={<About />} />
           <Route path='/Initiative' element={<Initiative />} />
-          <Route path='/InstituteHome' element={<InstituteHome />} />
           <Route path='/Publication' element={<Publication />} />
           <Route path='/Team' element={<Team />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/message' element={<Message />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/alumniservice' element={<AlumniService />} />
         </Routes>
+        <Footer />
       </Router>
       </div>
     </div>

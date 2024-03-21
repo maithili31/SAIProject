@@ -12,8 +12,8 @@ function Footer() {
           <div className="col">
             <h4>Quick Links</h4>
             <h1 className="list-unstyled">
-              <li><Link>Message from Coordinator</Link></li>
-              <li><Link>Alumni Services</Link></li>
+              <li><Link to={'/message'}>Message from Coordinator</Link></li>
+              <li><Link to={'/alumniservice'}>Alumni Services</Link></li>
               <li><Link>Alumni Gallery</Link></li>
             </h1>
           </div>
@@ -21,8 +21,8 @@ function Footer() {
           <div className="col">
             <h4>Important Links</h4>
             <ui className="list-unstyled">
-              <li>Contact Us</li>
-              <li>Privacy Policy</li>
+              <li><Link to={'/contact'}>Contact Us</Link></li>
+              <li><Link to={'/'}>Privacy Policy</Link></li>
               <li>Terms & Help</li>
             </ui>
           </div>
